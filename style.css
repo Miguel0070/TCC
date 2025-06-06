@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3c270;
+  color: #4a2e0c;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f3c270;
+}
+
+.header img {
+  width: 80px;
+}
+
+.header-text h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.header-text p {
+  margin: 10px 0;
+}
+
+.header-text button {
+  background-color: #d4864b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.sobre,
+.recursos,
+.depoimentos,
+.contato {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f9d9a0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.card .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.depoimento-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.depoimento {
+  background-color: #f9d9a0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.foto {
+  background-color: #d4864b;
+  height: 80px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.sun-footer img {
+  margin-top: 20px;
+  width: 60px;
+}
