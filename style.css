@@ -1,41 +1,69 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f3c270;
-  color: #4a2e0c;
+  background-color: #f4c278;
+  color: #4a2f1c;
 }
 
-.header {
+.top-bar {
+  background-color: #d88d3e;
+  padding: 10px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
-  background-color: #f3c270;
 }
 
-.header img {
-  width: 80px;
+.logo-pequena {
+  width: 60px;
+  height: auto;
 }
 
-.header-text h1 {
-  font-size: 32px;
-  margin: 0;
-}
-
-.header-text p {
-  margin: 10px 0;
-}
-
-.header-text button {
-  background-color: #d4864b;
-  color: white;
-  border: none;
+.menu a {
+  margin: 0 10px;
   padding: 10px 20px;
-  font-weight: bold;
+  background-color: #4a2f1c;
+  color: white;
+  text-decoration: none;
   border-radius: 20px;
-  cursor: pointer;
+  font-weight: bold;
 }
 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #f6c77c;
+}
+
+.texto-esquerda h1 {
+  font-size: 48px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.subtexto {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #8b5a2b;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #d88d3e;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.logo-maior img {
+  width: 150px;
+  height: auto;
+}
 .sobre,
 .recursos,
 .depoimentos,
@@ -95,14 +123,4 @@ footer p {
 .sun-footer img {
   margin-top: 20px;
   width: 60px;
-}
-.logo img {
-  width: 100px;
-  height: auto;
-}
-
-.sun-footer img {
-  width: 80px;
-  height: auto;
-  margin-top: 20px;
 }
