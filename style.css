@@ -96,3 +96,13 @@ footer p {
   margin-top: 20px;
   width: 60px;
 }
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.sun-footer img {
+  width: 80px;
+  height: auto;
+  margin-top: 20px;
+}
