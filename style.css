@@ -1,92 +1,136 @@
-/* --- Responsivo para tablets --- */
-@media (max-width: 768px) {
-  .top-bar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px;
-  }
-
-  .menu {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .menu a {
-    margin: 5px 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 40px 20px;
-  }
-
-  .texto-esquerda h1 {
-    font-size: 36px;
-  }
-
-  .logo-maior {
-    margin-top: 30px;
-  }
-
-  .logo-maior img {
-    width: 120px;
-  }
-
-  .cards,
-  .depoimento-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card,
-  .depoimento {
-    width: 90%;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
 }
 
-/* --- Responsivo para celulares --- */
-@media (max-width: 480px) {
-  .top-bar {
-    padding: 10px 10px;
-  }
+body {
+  background-color: #f2ca80;
+  color: #5a3b1d;
+}
 
-  .texto-esquerda h1 {
-    font-size: 28px;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c3813a;
+  padding: 1rem 2rem;
+}
 
-  .subtexto {
-    font-size: 14px;
-  }
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-  .botao {
-    width: 100%;
-    font-size: 14px;
-    padding: 10px 20px;
-  }
+nav a {
+  color: #fff;
+  margin-left: 1rem;
+  background: #5a3b1d;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
 
-  .logo-maior img {
-    width: 100px;
-  }
+.hero {
+  padding: 4rem 2rem;
+}
 
-  .card,
-  .depoimento {
-    width: 100%;
-    padding: 15px;
-  }
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
 
-  .cards,
-  .depoimento-container {
-    gap: 15px;
-  }
+.hero-texto {
+  max-width: 400px;
+  text-align: left;
+}
 
-  .menu a {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
+.hero-texto h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-texto p {
+  margin-bottom: 1rem;
+}
+
+.botao {
+  background-color: #d38741;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hero-imagem img {
+  max-width: 300px;
+  height: auto;
+}
+
+.sobre,
+.recursos,
+.depoimentos,
+.integrantes,
+footer {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.recursos .cards,
+.integrantes .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff5e1;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.icone {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.foto {
+  background-color: #d38741;
+  color: white;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.depoimento span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f5c990;
+  text-align: left;
+}
+
+footer h2 {
+  margin-bottom: 1rem;
+}
+
+footer p {
+  padding-left: 2rem;
 }
