@@ -124,19 +124,8 @@ footer {
   font-weight: bold;
 }
 
-footer {
-  background-color: #f5c990;
-  text-align: left;
-}
 
-footer h2 {
-  margin-bottom: 1rem;
-}
-
-footer p {
-  padding-left: 2rem;
-}
-
+foto de perfil dos integrantes
 .integrantes .foto {
   width: 120px;
   height: 120px;
@@ -150,4 +139,16 @@ footer p {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+footer {
+  background-color: #f5c990;
+  text-align: left;
+}
+
+footer h2 {
+  margin-bottom: 1rem;
+}
+
+footer p {
+  padding-left: 2rem;
 }
