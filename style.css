@@ -24,6 +24,7 @@ header {
 font-weight: bold;}
 
 nav a {
+  
   color: #fff;
   margin-left: 35px;
   background: #5a3b1d;
@@ -63,7 +64,7 @@ nav a {
 .botao {
   background-color: #d38741;
   padding: 0.5rem 1.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
   border-radius: 20px;
   text-decoration: none;
   display: inline-block;
