@@ -15,7 +15,9 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #D99543;
-  padding: 1rem 2rem;
+
+  padding: 2rem 2rem;
+ 
 }
 
 .logo {
@@ -36,6 +38,9 @@ nav a {
 
 .hero {
   padding: 4rem 2rem;
+  gap: 400px;
+  display: flex;
+
 }
 
 .hero-content {
