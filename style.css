@@ -15,6 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #D99543;
+
   padding: 1rem;
   width: 100%;
 }
@@ -24,6 +25,9 @@ header nav {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+
+  padding: 2rem 2rem;
+
 }
 
 .logo {
@@ -42,6 +46,9 @@ nav a {
 
 .hero {
   padding: 4rem 2rem;
+  gap: 400px;
+  display: flex;
+
 }
 
 .hero-content {
@@ -49,7 +56,7 @@ nav a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 400px;
 }
 
 .hero-texto {
