@@ -7,14 +7,14 @@
 
 body {
   background-color: #f2ca80;
-  color: #5a3b1d;
+  color: #593f27;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #D99543;
+  background-color: #d99543;
 
   padding: 1rem;
   width: 100%;
@@ -37,7 +37,7 @@ header nav {
 
 nav a {
   color: #fff;
-  background: #5a3b1d;
+  background: #593f27;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   text-decoration: none;
@@ -75,7 +75,7 @@ nav a {
 }
 
 .botao {
-  background-color: #d38741;
+  background-color: #d99543;
   padding: 0.5rem 1.5rem;
   color: rgb(255, 255, 255);
   border-radius: 20px;
@@ -112,7 +112,7 @@ footer {
   border-radius: 10px;
   padding: 1rem;
   width: 250px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .icone {
@@ -121,7 +121,7 @@ footer {
 }
 
 .foto {
-  background-color: #d38741;
+  background-color: #d99543;
   color: white;
   width: 80px;
   height: 80px;
@@ -133,6 +133,7 @@ footer {
 }
 
 .depoimento span {
+  border-radius: 10px;
   display: block;
   margin-top: 0.5rem;
   font-weight: bold;
